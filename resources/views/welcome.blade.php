@@ -25,7 +25,7 @@
 <section>
     <div class="inside-body">
         <div class="row">
-            <div class="sidebar col-md-2">
+            <div class="sidebar col-lg-2 col-md-12 col-sm-12 col-xs-12">
 
                 <input class="form-control ml-4" type="text" placeholder="Search" aria-label="Search">
 
@@ -43,7 +43,7 @@
                     </div>
                     <button type="button" class="btn btn-primary" data-toggle="collapse">Holidays</button>
                     <button type="button" class="btn btn-primary" data-toggle="collapse">Employee</button>
-                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1" >Setup</button>
+                    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo1" >Setup <ion-icon name="arrow-dropdown" class="float-right"></ion-icon></button>
                     <div id="demo1" class="collapse">
                         <button type="button" class="btn btn-secondary">SSS Table</button>
                         <button type="button" class="btn btn-secondary">BIR</button>
@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="right-side col-md-10">
+            <div class="right-side container col-md-10">
 
             </div>
         </div>
