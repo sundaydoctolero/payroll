@@ -59,7 +59,7 @@
             </div>
             <!-- Content -->
             <div class="right-side col-md-10">
-                @yield('template');
+                @yield('template')
             </div>
         </div>
         </div>
