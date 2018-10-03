@@ -55,8 +55,11 @@
             </div>
             <!-- Content -->
             <div class="right-side col-md-10">
-                @yield('template')
                 @yield('modal')
+                @yield('sss_template')
+                @yield('philhealth_template')
+                @yield('bir_template')
+                @yield('pagibig_template')
             </div>
         </div>
         </div>

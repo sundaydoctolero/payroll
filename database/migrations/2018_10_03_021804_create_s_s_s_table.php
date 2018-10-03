@@ -35,6 +35,6 @@ class CreateSSSTable extends Migration
      */
     public function down()
     {
-        Schema::drop('s_s_s');
+        Schema::drop('sss_contributions');
     }
 }
