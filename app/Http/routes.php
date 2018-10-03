@@ -11,10 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/admin','AdminController@dashboard');
+Route::get('/admin/setup/sss','AdminController@setup_sss');
+Route::get('/admin/setup/bir','AdminController@setup_bir');
+Route::get('/admin/setup/philhealth','AdminController@setup_philhealth');
+Route::get('/admin/setup/pagibig','AdminController@setup_pagibig');
 
-Route::auth();
-
-Route::get('/home', 'HomeController@index');
