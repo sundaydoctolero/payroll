@@ -56,6 +56,7 @@
             <!-- Content -->
             <div class="right-side col-md-10">
                 @yield('template')
+                @yield('modal')
             </div>
         </div>
         </div>
