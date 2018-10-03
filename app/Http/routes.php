@@ -17,3 +17,5 @@ Route::get('/admin/setup/bir','AdminController@setup_bir');
 Route::get('/admin/setup/philhealth','AdminController@setup_philhealth');
 Route::get('/admin/setup/pagibig','AdminController@setup_pagibig');
 
+
+Route::auth();
