@@ -8,12 +8,9 @@
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="icon" type="../../image/gif/png" href="images/mini%20icon.png">
     <title>CCCDMSI - Payroll</title>
-
     @yield('css')
-
 </head>
-<body>
-    
+<body> 
     <section>
     <nav class="navbar navbar-dark fixed-top flex-md-nowrap shadow">
       <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#"><img src="../../images/ccc.png" alt="ccc" height="55px" width="70px">CCC Data Management Services Inc.</a>
@@ -24,7 +21,6 @@
       </ul>
     </nav>
     </section>
-    
     <section>
        <div class="inside-body">
         <div class="row">
@@ -87,9 +83,9 @@
     
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../../js/bootstrap.min.js"></script>
     <script src="https://unpkg.com/ionicons@4.4.4/dist/ionicons.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../../js/script.js"></script>
     @yield('script')
 </body>
 </html>
